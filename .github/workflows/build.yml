@@ -9,7 +9,7 @@ jobs:
       - name: Install dependencies
         run: npm install
       - name: Build project
-        run: npm rub build
+        run: npm run build
       - name: Upload Artifact
         uses: actions/upload-artifact@v3
         with:
